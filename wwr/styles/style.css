@@ -1,11 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Pathway+Extreme&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
     
 }
-nav {
-    text-align: center;
-}
+
 #hero-msg h1 {
     text-align: center;
     color:#ffffff
@@ -24,6 +25,7 @@ main section img {
 }
 #background {
     height: 725px;
+    background-color: #001242
 }
 body {
     background-color: #000022;
@@ -54,9 +56,7 @@ nav a:hover {
     color:#000022;
     font-size: 18px;
 }
-#background {
-    background-color: #001242
-}
+
 .msg {
     background-color: #001242;
     line-height: 1.5em;
@@ -76,6 +76,7 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 35px;
+    text-align: center;
 }
 
 .home-title {
@@ -125,7 +126,7 @@ footer p a:hover {
     padding-top: 10px;
 }
 #hero-img {
-    width: 100
+    width: 100%
 }
 h2 {
     margin: 0;
