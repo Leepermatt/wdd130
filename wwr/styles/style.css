@@ -41,6 +41,8 @@ main section img {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color:#ffffff;
+
 }
 #background {
     height: 725px;
@@ -147,10 +149,7 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }    
-.home-grid {
 
-    color:#ffffff
-}
 .logo {
     width: 80px
 }
@@ -200,6 +199,52 @@ h2 {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-grid {
+    font-family: Bruno Ace, Pathway Extreme, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.Salmon p {
+    color: #ffffff;
+    
+
+}
+.Salmon {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.Gray_canyon p {
+    color: #ffffff;
+
+}
+.Gray_canyon {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.Grand_canyon p {
+    color: #ffffff;
+
+}
+.Grand_canyon {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.Salmon h2 {
+    color: #ffffff;
+    font-size: xx-large;
+
+}
+.Gray_canyon h2 {
+    color: #ffffff;
+    font-size: xx-large;
+}
+.Grand_canyon h2 {
+    color: #ffffff;
+    font-size: xx-large;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
