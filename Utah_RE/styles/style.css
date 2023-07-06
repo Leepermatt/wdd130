@@ -140,6 +140,22 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+footer p {
+  color: #ffffff;
+  font-size: 1.2em;
+}  
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer p a:hover {
+  text-decoration: underline;
+}   
 #matt {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
