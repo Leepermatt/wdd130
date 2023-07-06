@@ -140,6 +140,85 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+#matt {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  color:#ffffff;
+}
+
+
+.matt_img {
+  padding-top: 10%;
+  margin-top: 100px;
+  /* margin: 400px 0; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 400px;
+  width: 400px;
+
+}
+
+#matt p {
+  margin: 200px 0;
+  font-size: large;
+  font-family: Bruno Ace, Pathway Extreme, sans-serif;
+  grid-column: 2/6;
+  grid-row: 1/4;
+  color:#ffffff
+
+}
+#carol {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  color:#ffffff;
+}
+
+
+.carol_img {
+  padding-top: 10%;
+  margin-top: 100px;
+  /* margin: 400px 0; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 400px;
+
+}
+
+#carol p {
+  margin: 200px 0;
+  font-size: large;
+  font-family: Bruno Ace, Pathway Extreme, sans-serif;
+  grid-column: 2/6;
+  grid-row: 1/4;
+  color:#ffffff
+
+}
+#joe {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  color:#ffffff;
+}
+
+
+.joe_img {
+  padding-top: 10%;
+  margin-top: 100px;
+  /* margin: 400px 0; */
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 400px;
+  width: 400px;
+
+}
+
+#joe p {
+  margin: 200px 0;
+  font-size: large;
+  font-family: Bruno Ace, Pathway Extreme, sans-serif;
+  grid-column: 2/6;
+  grid-row: 1/4;
+  color:#ffffff
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: white;
