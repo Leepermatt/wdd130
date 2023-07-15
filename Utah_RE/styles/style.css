@@ -255,9 +255,10 @@ footer p a:hover {
 .google {
   margin: 10px 0;
   grid-column: 1/2;
-  
+  /* max-width: 100px; */
+  /* max-height: 100px; */
   grid-row: 1/2;
-  justify-content: left;
+  /* justify-content: left; */
 }
 .crime {
   margin: 210px 0;
@@ -288,14 +289,16 @@ footer p a:hover {
   font-family:  Pathway Extreme, sans-serif;
 }
 .utility {
-  margin: 300px 0; 
+  margin: 20px 0; 
   max-width: 300px;
   grid-column: 5/7;
-  grid-row: 3/5;
+  grid-row: 1/2;
   justify-content: center;
 }
 .lender {
   margin: 10px;
+  grid-column: 7/8;
+  grid-row: 1/2;
 }
 .request {
   margin: 200px 0;
